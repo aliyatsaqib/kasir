@@ -1,0 +1,38 @@
+kasir
+
+detailpesanan
+- iddetailpesanan (pri,int)
+- idpesanan(int)
+- idproduk(int)
+- qty(int)
+
+masuk
+-idmasuk(pri,int)
+-idproduk(int)
+-qty(int)
+-tanggalmasuk(date)
+
+pelanggan
+-idpelanggan(pri,int)
+-alamat(text)
+-namapelanggan(varchar)
+-notelp(int)
+
+pesanan
+-idorder(pri,int)
+-idpelanggan(int)
+-tanggal(date)
+
+produk
+-idproduk(pri,int)
+-deskripsi(varchar)
+-harga(int)
+-namaproduk(varchar)
+-stock(int)
+
+user
+-iduser(pri,int)
+-nama(varchar)
+-password(text)
+-role(enum)
+-username(varchar)
